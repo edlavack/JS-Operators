@@ -97,3 +97,34 @@ body{
 .social>a:hover{
     color: var(--edl-secondary-color);
 }
+
+.pBlue{
+    font-size: 4rem;
+    color: blue;
+}
+
+.pRed{
+    font-size: 4rem;
+    color: red;
+}
+
+.pProduct{
+    font-size: 4rem;
+    color:aqua;
+}
+
+.pQ{
+    font-size: 4rem;
+    color:aquamarine;
+}
+
+.pR{
+    font-size: 4rem;
+    color:blueviolet;
+
+}
+
+.pAll{
+    font-size: 4rem;
+    color:chartreuse;
+}

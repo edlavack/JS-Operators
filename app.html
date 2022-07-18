@@ -54,9 +54,22 @@
     <main>
         <div class="content">
             <div class="container mt-5 p-4">
-                <h1>APP UI GOES HERE</h1>
-                <input type="text" id="message" placeholder="Enter a Message"/>
-                <button id="btnSubmit" class="btn btn-primary">Display Message</button>
+                <h1>Java Fun</h1>
+                <div>
+                    <input type="number" id="numberOne" placeholder="Enter a Number" value=3 />
+                </div>
+            <div>
+                <input type="number" id="numberTwo" placeholder="Enter a Number" value=6 />
+            </div>
+                <button id="btnSubmit" class="btn btn-primary">Calculate</button>
+                     <!------------------------------------------------------------>
+                    <!--------------------Results go here------------------------->
+                    <!------------------------------------------------------------>
+
+                <div id="results">
+                    <h2>Results</h2>
+                    
+                </div>
             </div>
         </div>
     </main>
@@ -71,7 +84,7 @@
 
     <script src="/js/site.js"></script>
     <script>
-        document.getElementById("btnSubmit").addEventListener("click",getValue2);
+        document.getElementById("btnSubmit").addEventListener("click", getNumbers);
     </script>
  </body>
 
